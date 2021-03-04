@@ -231,7 +231,7 @@ Route::group(['middleware' => ['auth','admin']], function() {
         Route::get('/year/edit/{id}', 'Backend\Setup\YearController@edit')->name('setups.year.edit');
         Route::post('/year/update/{id}', 'Backend\Setup\YearController@update')->name('setups.year.update');
         Route::post('/year/delete/{id}', 'Backend\Setup\YearController@delete')->name('setups.year.delete');
-
+///
         Route::get('/view', 'Backend\Setup\StudentClassController@view')->name('setups.student.class.view');
         Route::get('/student/class/add', 'Backend\Setup\StudentClassController@add')->name('setups.student.class.add');
         Route::post('/student/class/store', 'Backend\Setup\StudentClassController@store')->name('setups.student.class.store');
