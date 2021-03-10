@@ -52,6 +52,7 @@
                                         <th>Name</th>
                                         <th>Email</th>
                                         <th>Mobile</th>
+                                        <th>Organization</th>
                                         <th>Action</th>
 
                                     </tr>
@@ -63,6 +64,7 @@
                                             <td>{{$user->name}}</td>
                                             <td>{{$user->email}}</td>
                                             <td>{{$user->mobile}}</td>
+                                            <td>{{$user->organization}}</td>
                                             <td>
 
                                                 {{-- <a title="Delete" class="btn btn-sm btn-danger" href="{{route('users.delete',$user->id)}}"><i class="fa fa-trash"></i></a>--}}
